@@ -11,7 +11,7 @@ The service receives the audio file in binary format and outputs the text string
 
 ##  Model details:
 
-The service receives an speech WAV audio file and uses it as an input to the Transformer model, based on a deep convolutional neural network trained in half-precision using a mixture of natural and synthetic data, and outputs the result of the speech sample recognition in form of a text sequence. The input audio file size is limited to 4Mb, in practice the optimal duration of the processed audio track should be no more than 90 seconds for 320 kbps audio.
+The service receives an speech WAV audio file and uses it as an input to the Transformer model, based on a deep enc-dec neural network trained in half-precision using a mixture of natural and synthetic data, and outputs the result of the speech sample recognition in form of a text sequence. The input audio file size is limited to 4Mb, in practice the optimal duration of the processed audio track should be no more than 90 seconds for 320 kbps audio.
 
 ## How does it work?
 
