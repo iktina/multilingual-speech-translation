@@ -8,6 +8,7 @@ The service receives an audio file and uses it as an input for a trained models.
 
 The service performs speech recognition using machine learning techniques.
 The service receives the audio file in binary format and outputs the text string resulting from audio recognition. 
+The service translates the input speech signal in any language into English text
 
 ##  Model details:
 
