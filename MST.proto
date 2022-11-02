@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package MSR;
+package MST;
 
 message Audio {
     bytes data = 1;
@@ -10,6 +10,6 @@ message Text {
     string text = 1;
 }
 
-service MSR {
+service MST {
     rpc s2t(Audio) returns (Text) {}
 }
